@@ -97,3 +97,55 @@ Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file
 
 - Ubah method about pada class Controller Page menjadi seperti berikut:
 
+![image](https://user-images.githubusercontent.com/101658076/173860665-b9e28b2a-a375-4919-913c-8b289de49995.png)
+
+- Kemudian lakukan refresh pada halaman tersebut.
+
+![image](https://user-images.githubusercontent.com/101658076/173860869-8d345288-c6db-4eb3-aa95-943d0144661c.png)
+
+### 12. Membuat Layout Web dengan CSS
+
+Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public.
+
+Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+
+![image](https://user-images.githubusercontent.com/101658076/173861298-37d10ee0-b723-4bf2-b6d1-a501dc3e7ff9.png)
+
+ ### Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
+
+- File app/view/template/header.php
+
+![image](https://user-images.githubusercontent.com/101658076/173861535-a4629df7-0a6f-4451-a934-d7e778644fea.png)
+
+- File app/view/template/footer.php
+
+![image](https://user-images.githubusercontent.com/101658076/173861851-e0810c5f-55c4-4500-be8f-cefd69052fb8.png)
+
+### Kemudian ubah file app/view/about.php seperti berikut.
+
+![image](https://user-images.githubusercontent.com/101658076/173862184-2bce2306-c633-4f49-b154-701ccf6ef98a.png)
+
+- Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
+
+![image](https://user-images.githubusercontent.com/101658076/173862425-eda7d13e-6656-41a7-937f-85d04a6713e3.png)
+
+### Pertanyaan dan Tugas !
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+- About 
+
+![image](https://user-images.githubusercontent.com/101658076/173862746-12355701-a237-49ef-88e2-c8a77f6b3fd8.png)
+
+![image](https://user-images.githubusercontent.com/101658076/173862866-0db89ce0-411e-437e-8640-f6c515fa1956.png)
+
+- Hasil Browser
+
+![image](https://user-images.githubusercontent.com/101658076/173862997-54a110e5-3a58-43cd-afe9-19a23f7d28dd.png)
+
+- Contact
+
+![image](https://user-images.githubusercontent.com/101658076/173863161-db936bca-87b7-445b-8a0f-5b5d05e10185.png)
+
+- Hasil Browser
+
+![image](https://user-images.githubusercontent.com/101658076/173863290-27942d01-144f-4eed-af15-b84a914f70d6.png)
